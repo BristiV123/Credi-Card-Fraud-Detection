@@ -1,69 +1,88 @@
-# 💳 Credit Card Fraud Detection
+# 💳 Credit Card Fraud Detection System
+
+A Machine Learning based Credit Card Fraud Detection system developed using Python and Streamlit.
 
 ## 📌 Project Overview
 
-This project detects fraudulent credit card transactions using Machine Learning.
+This project analyzes credit card transaction data and uses Machine Learning to identify potentially fraudulent transactions.
 
----
+The project includes:
 
-## 🎯 Objective
+- Dataset analysis
+- Fraud vs genuine transaction analysis
+- Data visualization
+- Logistic Regression model
+- Model evaluation
+- Confusion matrix
+- Interactive Streamlit dashboard
+- Fraud prediction
 
-- Detect fraudulent transactions
-- Analyze transaction data
-- Train a Machine Learning model
-- Evaluate model performance
+## 🚀 Features
 
----
+### 📊 Dataset Analysis
+- Dataset shape
+- Feature information
+- Missing value analysis
+- Statistical summary
+- Fraud and genuine transaction count
 
-## 🛠 Technologies Used
+### 📈 Data Visualization
+- Fraud vs genuine transaction chart
+- Fraud distribution
+- Transaction percentage visualization
+- Confusion matrix visualization
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+### 🤖 Machine Learning
 
----
+The project uses:
 
-## 📂 Dataset
+**Logistic Regression**
 
-- creditcard.csv
+The dataset is divided into:
 
----
+- 80% Training Data
+- 20% Testing Data
 
-## 🤖 Machine Learning Model
+### 📋 Model Evaluation
 
-- Logistic Regression
+The model is evaluated using:
 
----
-
-## 📈 Model Performance
-
-- Accuracy Score
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 - Confusion Matrix
 - Classification Report
 
----
+### 🔮 Fraud Prediction
 
-## 📸 Project Screenshots
+The Streamlit application allows users to enter transaction feature values and receive a prediction:
 
-- Fraud Distribution
-- Confusion Matrix
+- ✅ Genuine Transaction
+- 🚨 Fraudulent Transaction
 
----
+## 🛠️ Technologies Used
 
-## 🚀 How to Run
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
 
-```bash
-pip install -r requirements.txt
-python credit_card_fraud_detection.py
-```
+## 📁 Project Structure
 
----
-
-## 👩‍💻 Author
-
-**Bristi Ray**
-
-GitHub: https://github.com/BristiV123
+```text
+Credit_Card_Fraud_Detection/
+│
+├── Credit_Card_Fraud_Detection.py
+├── app.py
+├── creditcard.csv
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── IMAGES/
+    ├── fraud_vs_nonfraud.png
+    ├── confusion_matrix.png
+    └── fraud_distribution.png
